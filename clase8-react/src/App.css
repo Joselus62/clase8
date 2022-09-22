@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+
+.App-img {
+  margin-top: 50px;
+  height: 50vmin;
+  border-radius: 50%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-img {
+    animation: App-img infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: darkgreen;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin: 5%;
+}
+
+.App-link {
+  color: lightgreen;
+  font-size: xx-large;
+  text-decoration: none;
+}
+
+@keyframes App-img {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
